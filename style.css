@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+
+     --branco: white;
+     --cor-de-fundo: #094381d5;
+     --fundo-senha: #6a9dd6;
+     --fundo-texto: #071729;
+     --borda: #3579d1;
+     --Karla: 'Karla' monospace;
+}
+
+
+body{
+
+    color:var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--Karla);
+}
+
+.titulo-principal{
+    font-family: var(--Karla);
+    font-size: 32px;
+}
+
+.titulo-secundario{
+    font-size:  24px;
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.conteudo-senha{
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+
+}
+
+#campo-senha{
+     
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--Karla);
+    font-size: 40px;
+    width: 70%;
+}
